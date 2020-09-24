@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  width: 100%;
+  height: 793px;
+  background-color: DodgerBlue;
+}
+#main .colorBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: verdana;
+  border: none;
+  border-collapse: collapse;
+}
+#list .nav {
+  position: absolute;
+  top: 0;
+  left: 90%;
+}
+#list .nav ul {
+  list-style: none;
+  text-align: center;
+}
+#list .nav ul li {
+  padding: 13px;
+  border: 2px solid black;
+  background: blanchedalmond;
+}
+#list .nav .addColor .addBtn {
+  padding: 5px 10px;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+}
+
+#add {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  display: none;
+  background-color: blanchedalmond;
+}
+#add .myForm {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  background-color: blanchedalmond;
+}
+#add .myForm .color {
+  width: 200px;
+  height: 30px;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+#add .myForm .color::-webkit-input-placeholder {
+  font-size: 14px;
+  margin-right: 10px;
+}
+#add .myForm .submitColor {
+  font-size: 15px;
+  padding: 11px 15px;
+  background: DodgerBlue;
+  border: none;
+}
+#add .close {
+  font-size: 16px;
+  padding: 5px;
+  position: absolute;
+  right: 0%;
+  border: none;
+  background-color: Tomato;
+}
